@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MudaBot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"/>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="/" id="nav_logo">
+                <i class="ti ti-trees"></i>
+                <span>MudaBot</span>
+            </a>
+
+
+
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Tecnologias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <a href="+55719999-5555">
+                <button class="btn-default">
+                    Contate um funcionário
+                </button>
+            </a>
+
+                <button id="mobile_btn">
+                    <i class="ti ti-menu-deep"></i>
+                </button>            
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a></li>
+                <li class="nav-item">
+                    <a href="#menu">Tecnologias</a></li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a></li>
+            </ul>        
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape">
+                <img src="images/arvores_rio.png" alt="É uma árvore com rio">
+            </div>
+            <div id="cta">
+
+                <h1 class="title">
+                    Semeie o futuro com a tecnologia
+                </h1>
+
+                <p class="description">
+                    Uma das grandes problemáticas do meio ambiente brasileiro é a pauta do desmatamento e queimadas periódicas. Tendo em vista uma minimização dessas ações e o constante monitoramento de áreas verdes, visando a preservação da flora e da biodiversidade, surge o MudaBot.
+                </p>
+            
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver produtos
+                    </a>
+
+                    </a>
+                </div>
+
+        </section>
+
+        <section id="menu">
+            <div class="container swiper">
+                    <ul class="card-list swiper-wrapper">
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="/images/placas.png" alt="Placas solares" class="card-image">
+                                <h3 class="card-title">Energia Sustentável</h3>
+                                <button class="btn-card" id="open-dialogue-1">
+                                    <i class="ti ti-seedling"></i>
+                                    Veja a descrição!
+                                </button>
+                                <dialog id="dialog-1">
+                                    <p class="badge">Capacitados com mini painéis solares em suas asas, o MudaBot consegue fazer o carregamento de sua bateria através da incidência solar. O VANT pode ser recarregado quando em voo ou em momentos de pouso, aumentando sua autonomia.</p>
+                                    <button class="btn-close">
+                                        <i class="ti ti-xbox-x"></i>
+                                        Fechar
+                                    </button>
+                                </dialog>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="/images/queimadas.png" alt="Queimada ocorrendo na Amazônia" class="card-image">
+                                <h3 class="card-title">Sensoriamento de área</h3>
+                                <button class="btn-card" id="open-dialogue-2">
+                                    <i class="ti ti-seedling"></i>
+                                    Veja a descrição!
+                                </button>
+                                <dialog id="dialog-2">
+                                    <p class="badge">Com a tecnologia de drone, o MudaBot pode sobrevoar florestas e, a partir de câmeras e sensores, mapeiam as informações geográficas. Assim, captam eventuais focos de queimadas bem como áreas de desmatamento vegetal e mudança no comportamento da biodiversidade.</p>
+                                    <button class="btn-close">
+                                        <i class="ti ti-xbox-x"></i>
+                                        Fechar
+                                    </button>
+                                </dialog>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="/images/noite_amazonas.jpg" alt="Amazônia vista de cima" class="card-image">
+                                <h3 class="card-title">Qualidade do ar e água</h3>
+                                <button class="btn-card" id="open-dialogue-3">
+                                    <i class="ti ti-seedling"></i>
+                                    Veja a descrição!
+                                </button>
+                                <dialog id="dialog-3">
+                                    <p class="badge">Com a integração de sensores com infravermelho não dispersivo (NDIR), é possível coletar dados sobre o aumento da quantidade de CO2 e CO na atmosfera em momentos de desmatamento. Com sensores térmicos e higrômetros, o MudaBot conseguem obter dados da variação da temperatura e umidade do ar para melhor análise climática do ambiente.</p>
+                                    <button class="btn-close">
+                                        <i class="ti ti-xbox-x"></i>
+                                        Fechar
+                                    </button>
+                                </dialog>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="/images/ia-ambiente.png" alt="Duas mãos que representam a conexão do meio ambiente com a tecnologia" class="card-image">
+                                <h3 class="card-title">Análise de Dados com I.A</h3>
+                                <button class="btn-card" id="open-dialogue-4">
+                                    <i class="ti ti-seedling"></i>
+                                    Veja a descrição!
+                                </button>
+                                <dialog id="dialog-4">
+                                    <p class="badge">A partir das informações coletadas pelo sensoriamento, utilizamos a Inteligência Artificial para o processamento da grande quantidade de dados. Quando houver uma identificação na mudança dos padrões ambientais, avisos especificando o tipo de problema são emitidos para que ações interventivas sejam tomadas. Caso ocorra alta variação climática por conta do desmatamento, alertas serão emitidos com avisos.</p>
+                                    <button class="btn-close">
+                                        <i class="ti ti-xbox-x"></i>
+                                        Fechar
+                                    </button>
+                                </dialog>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="/images/floresta_cima.png" alt="Amazônia vista de cima" class="card-image">
+                                <h3 class="card-title">Reflorestamento</h3>
+                                <button class="btn-card" id="open-dialogue-5">
+                                    <i class="ti ti-seedling"></i>
+                                    Veja a descrição!
+                                </button>
+                                <dialog id="dialog-5">
+                                    <p class="badge">Com o MudaBot, técnicas de reflorestamento são possíveis, como a "Muvuca", no qual é feito o despejo de sementes em áreas desmatadas, ajudando na restauração das áreas afetadas.</p>
+                                    <button class="btn-close">
+                                        <i class="ti ti-xbox-x"></i>
+                                        Fechar
+                                    </button>
+                                </dialog>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="/images/drone.png" alt="Drone sobrevoando floresta" id="testimonials-drone">
+
+            <div id="testimonials-content">
+                <h2 class="section-subtitle">
+                    Avaliações do MudaBot
+                </h2>
+
+                <div id="feedback">
+                    <div class="feedback-card">
+                        <i class="ti ti-users"></i>
+                           <h3 class="feedback-info">Adrielle Gobi</h3>
+                            <p class="feedback-text">
+                            "Esse produto realmente cumpre com a proposta de minimizar problemas ambientais. Depois da compra, fiquei muito contente com o resultado, aprovado demais!"</p>
+                            <span class="feedback-stars">
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                            </span>
+                    </div>
+                </div>
+
+
+                <div id="feedback">
+                    <div class="feedback-card">
+                        <i class="ti ti-users"></i>
+                           <h3 class="feedback-info">Lilian Gobi</h3>
+                            <p class="feedback-text">
+                            "O MudaBot realmente trouxe diversos benefícios ambientais."</p>
+                            <span class="feedback-stars">
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                                <i class="ti ti-star"></i>
+                            </span>
+                    </div>
+                </div>
+
+                    </div>
+                </div>
+            </div>
+
+                <a href="https://www.infojobs.com.br/availacoes-cimatec-jr__-7916982.aspx">
+                    <button class="btn-default">
+                    Veja mais avaliações da empresa!
+                    </button>
+                </a>
+
+        </section>
+
+
+
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+        <img src="/images/waves.svg" alt="Ondas" class="footer-wave">
+        
+        <div id="footer-items">
+            <span id="copyright">
+               &copy 2025 Lilian Gobi
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="link Whatsapp">
+                    <i class="ti ti-brand-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/cimatecjr/">
+                    <i class="ti ti-brand-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/cimatecjr/mentions/">
+                    <i class="ti ti-brand-facebook"></i>
+                </a>
+                <a href="https://br.linkedin.com/company/cimatecjr">
+                    <i class="ti ti-brand-linkedin"></i>
+                </a>
+                </div>
+        </div>
+    </footer>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>
